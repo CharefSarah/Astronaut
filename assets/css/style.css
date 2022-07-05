@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  transition: all 0.2s ease;
+
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  background: #000409;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+canvas {
+  opacity: 0.5;
+  height: 90%;
+  width: 90%;
+}
+
+img{
+  position: absolute;
+  z-index: 3;
+  height: 80vh;
+  
+}
+
+
+#Astronaut {
+
+  will-change: transform;
+  transition: transform 100ms ease;
+}
+

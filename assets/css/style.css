@@ -32,13 +32,31 @@ img{
   position: absolute;
   z-index: 3;
   height: 80vh;
+  width: auto;
+
   
 }
 
+.grow{
+  
+  animation: grow 3s ease-in-out forwards;
+}
 
 #Astronaut {
 
   will-change: transform;
   transition: transform 100ms ease;
+
 }
 
+
+@keyframes grow {
+  from {
+    transform: scale(0);
+    
+  }
+  to {
+    transform: scale(1);
+
+  }
+}

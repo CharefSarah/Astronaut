@@ -1,5 +1,5 @@
 
-   var delayInMilliseconds = 3000; //5 second
+   var delayInMilliseconds = 3500; //5 second
 
 
 window.onload = function grow() {

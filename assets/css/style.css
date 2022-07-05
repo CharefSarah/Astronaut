@@ -24,7 +24,7 @@ body {
 
 canvas {
   opacity: 0.5;
-  height: 60%;
+  height: 70%;
   width: 90%;
 }
 
@@ -39,7 +39,7 @@ img{
 
 .grow{
   
-  animation: grow 3s ease-in-out forwards;
+  animation: grow 3.5s ease-in-out forwards;
 }
 
 #Astronaut {
@@ -52,7 +52,7 @@ img{
 
 @keyframes grow {
   from {
-    transform: scale(0);
+    transform: scale(0.2);
     
   }
   to {

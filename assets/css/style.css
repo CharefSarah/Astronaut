@@ -58,7 +58,7 @@ body {
   padding-left: 2.5rem;
   padding-bottom: 1.5rem;
   font-size: 13px;
-  z-index: 4;
+  z-index: 1;
   position: absolute;
   top: 83vh;
   left: 5vw;
@@ -69,16 +69,28 @@ body {
 
 }
 
+.blink {
+  animation: blinker 1.2s ease-in-out infinite;
+}
+
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+
 canvas {
   position: absolute;
   height: 100%;
-  width: 75%;
+  width: 73.93%;
   clip-path: polygon(28% 0, 72% 0, 100% 71%, 89% 100%, 11% 100%, 0 70%);
 }
 
 img {
   position: absolute;
-  z-index: 3;
+  z-index: 5;
   height: 80vh;
   width: auto;
 
@@ -94,6 +106,7 @@ img {
 
   will-change: transform;
   transition: transform 100ms ease;
+ 
 
 }
 

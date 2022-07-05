@@ -27,8 +27,7 @@ var canvas = document.getElementById('canvas'),
   count = 0,
   maxStars = 1400;
 
-// Thanks @jackrugile for the performance tip! https://codepen.io/jackrugile/pen/BjBGoM
-// Cache gradient
+
 var canvas2 = document.createElement('canvas'),
   ctx2 = canvas2.getContext('2d');
 canvas2.width = 100;
@@ -126,6 +125,5 @@ const Astronaut = document.getElementById("Astronaut");
 document.onmousemove = ev => {
   const positionX = (window.innerWidth / -30 - ev.x) / -50;
   const positionY = -ev.y / 10;
-  console.log(positionX, positionY);
   Astronaut.style.transform = `translate(${positionX}px, ${positionY}px)`;
 };

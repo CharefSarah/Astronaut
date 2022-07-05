@@ -63,7 +63,8 @@ nav {
 
 .logo{
   font-size: 30px;
-  color: #aecef0;
+  color: #00ddff;
+  text-shadow: 2px 5px 10px rgba(33, 255, 222, 0.523);
 }
 
 

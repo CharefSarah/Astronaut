@@ -1,19 +1,45 @@
 
-   var delayInMilliseconds = 3500; //5 second
 
 
-window.onload = function grow() {
 
-  $( "#Astronaut" ).addClass( 'grow');
-  setTimeout(function () {
- 
-    $( "#Astronaut" ).removeClass( 'grow');
+   var delayInMilliseconds1 = 4500; //5 second
 
-  }, delayInMilliseconds);
+
+   var delayInMilliseconds2 = 4500; //5 second
+
+   var delayInMilliseconds3 = 8000; //5 second
+
+
+
+   window.onload = function load() {
   
 
+    setTimeout(function () {
+
+      $( "#loader" ).addClass( 'bye_loader');
+    
+      }, delayInMilliseconds2);
   
-}
+    setTimeout(function () {
+  
+    $( "#Astronaut" ).addClass( 'grow');
+  
+    }, delayInMilliseconds2);
+  
+  
+    
+    setTimeout(function () {
+  
+      $( "#Astronaut" ).removeClass( 'grow');
+    
+      }, delayInMilliseconds3);
+      
+    
+    
+  }
+
+
+
 
 "use strict";
 
